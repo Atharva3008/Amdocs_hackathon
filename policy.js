@@ -57,8 +57,10 @@ var createDIV = (addTO, jsonData, i) => {
   var dets = document.createElement('p');
   dets.innerText = jsonData[i].details;
 
-  //break
-  var br = document.createElement("br");
+  //button
+  var btn = document.createElement("btn");
+  btn.innerText = "Apply";
+  btn.classList = "btn btn-success";
 
   div.appendChild(h3);
   div.appendChild(document.createElement("br"));
@@ -67,6 +69,8 @@ var createDIV = (addTO, jsonData, i) => {
   div.appendChild(yr);
   div.appendChild(document.createElement("br"));
   div.appendChild(dets);
+  div.appendChild(document.createElement("br"));
+  div.appendChild(btn);
 
   addTO.appendChild(div);
 }
