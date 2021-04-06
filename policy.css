@@ -1,0 +1,48 @@
+/*Basic styling */
+body{ color: white; font-family: sans-serif; font-size: 1.4em; }
+.item1{ background-color: Crimson; padding: 80px; }
+.item2{ background-color: LightGreen; padding: 80px; }
+.item3{ background-color: DarkTurquoise; padding: 80px; }
+.item4{ background-color: LightGreen; padding: 80px; }
+.item5{ background-color: Crimson; padding: 80px; }
+
+/*Displaying items in a row*/
+.flexcontainer {
+   background-color: #E0E0E0;
+   padding: 20px;
+  
+   display: -webkit-flex; /*Setting the container to flex*/
+   display: flex;
+  
+   -webkit-flex-direction: row; /*Items inside the container into a row*/
+   flex-direction: row;
+  
+   -webkit-align-items: center;  /*Center everything up */
+   align-items: center;
+   -webkit-justify-content: center;
+   justify-content: center;
+  
+   /*Aligns the items to the right/end of the container
+    -webkit-justify-content: flex-end;
+   justify-content: flex-end;
+  */
+  
+}
+
+/*Displaying items in a column*/
+.flexcontainercolumn{
+   background-color: #E0E0E0;
+   padding: 20px;
+   margin-top: 50px;
+  
+   display: -webkit-flex; /*Setting the container to flex */
+   display: flex;
+  
+   -webkit-flex-direction: column; /*sets it to be in a column*/
+   flex-direction: column;
+  
+   -webkit-justify-content: flex-start;
+   justify-content: flex-start;
+}
+
+
