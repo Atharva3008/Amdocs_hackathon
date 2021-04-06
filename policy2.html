@@ -7,13 +7,14 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="policy.css" />
 </head>
-<body>
+<body onload="displayElems()">
     <div class="container">
         <div class="row">
             <h1 class="h1">DIFFERENT TYPES OF POLICIES</h1>
         </div>
         
-        
+        <button class="btn btn-info" onclick=sortName()>Sort by name</button>
+        <button class="btn btn-info" onclick=sortRating()>Sort by Rating</button>
 
         <div id="addTo">
         </div>

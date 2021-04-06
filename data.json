@@ -1,22 +1,26 @@
 [
     {
     "Company": "HSBC",
-    "fileName": "fileXX",
-    "rating": 5
+    "rating": 5,
+    "years": 40,
+    "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga nesciunt praesentium provident repellat, deserunt nisi ea excepturi perferendis laborum soluta minus quod, recusandae porro magnam illum qui unde sint reprehenderit quibusdam possimus debitis. Odit porro nisi, tenetur sit pariatur rerum excepturi ad amet. Perspiciatis saepe laboriosam tempore soluta dolores esse."
     }, 
     {
         "Company": "InsuranceCompany",
-        "fileName": "fileXX",
-        "rating": 2
+        "rating": 2,
+        "years": 23,
+        "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga nesciunt praesentium provident repellat, deserunt nisi ea excepturi perferendis laborum soluta minus quod, recusandae porro magnam illum qui unde sint reprehenderit quibusdam possimus debitis. Odit porro nisi, tenetur sit pariatur rerum excepturi ad amet. Perspiciatis saepe laboriosam tempore soluta dolores esse."
     }, 
     {
         "Company": "MaxLife",
-        "fileName": "fileXX",
-        "rating": 8
+        "rating": 8,
+        "years": 15,
+        "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga nesciunt praesentium provident repellat, deserunt nisi ea excepturi perferendis laborum soluta minus quod, recusandae porro magnam illum qui unde sint reprehenderit quibusdam possimus debitis. Odit porro nisi, tenetur sit pariatur rerum excepturi ad amet. Perspiciatis saepe laboriosam tempore soluta dolores esse."
     }, 
     {
         "Company": "LIC",
-        "fileName": "fileXX",
-        "rating": 1
+        "rating": 1,
+        "years": 65,
+        "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga nesciunt praesentium provident repellat, deserunt nisi ea excepturi perferendis laborum soluta minus quod, recusandae porro magnam illum qui unde sint reprehenderit quibusdam possimus debitis. Odit porro nisi, tenetur sit pariatur rerum excepturi ad amet. Perspiciatis saepe laboriosam tempore soluta dolores esse."
     }
 ]
