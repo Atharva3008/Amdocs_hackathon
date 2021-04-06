@@ -106,3 +106,68 @@ body {
     grid-gap: 3rem;
   }
 }
+
+
+
+section {
+  padding: 100px 0;
+  margin-top: 25px;
+}
+
+section h2.section-heading {
+  margin-top: 0;
+  font-weight: 900; 
+  margin-bottom: 15px;
+}
+
+section h3.section-subheading {
+  margin-bottom: 75px;
+  text-transform: none;
+  font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 400;
+}
+
+
+@media(min-width:768px) {
+  section {
+      padding: 150px 0;
+  }
+}
+
+.service-heading {
+  margin: 15px 0;
+  text-transform: none;
+}
+
+
+p {
+  font-size: 14px;
+  line-height: 1.75;
+}
+
+h1.heading {
+  color: #fff;
+  font-size: large;
+  font-weight: 900; 
+  margin: 0 0 0.5em;
+  color: black;
+}
+@media (min-width: 450px) {
+  h1.heading {
+    font-size: 3.55em;
+  }
+}
+@media (min-width: 760px) {
+  h1.heading {
+    font-size: 3.05em;
+  }
+}
+@media (min-width: 900px) {
+  h1.heading {
+    font-size: 3.25em;
+    margin: 0 0 0.3em;
+    margin-bottom: 80px;
+  }
+}
