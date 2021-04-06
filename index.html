@@ -5,28 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <title>Insurance</title>
-  
+    <link rel="stylesheet" href="index.css" />
 </head>
 <body>
-    <nav class="navbar navbar-expand-sm bg-success navbar-dark">
+ 
+     <nav class="navbar navbar-expand-sm bg-success navbar-dark">
         <div class="collapse navbar-collapse justify-content-end"></div>
         <a class="navbar-brand" href="#">INSURANCE</a>
-    </nav>
-
+    </nav> 
+    <div class="container"> 
     <div id="demo" class="carousel slide" data-ride="carousel">
 
-        <!-- Indicators -->
+      
         <ul class="carousel-indicators">
           <li data-target="#demo" data-slide-to="0" class="active"></li>
           <li data-target="#demo" data-slide-to="1"></li>
           <li data-target="#demo" data-slide-to="2"></li>
         </ul>
       
-        <!-- The slideshow -->
         <div class="carousel-inner">
           <div class="carousel-item active">
             <img src="photo1.jpg" class="d-block w-100" style="height:500px; width:500px" alt="sample1">
@@ -39,7 +39,6 @@
           </div>
         </div>
       
-        <!-- Left and right controls -->
         <a class="carousel-control-prev" href="#demo" data-slide="prev">
           <span class="carousel-control-prev-icon"></span>
         </a>
@@ -47,80 +46,63 @@
           <span class="carousel-control-next-icon"></span>
         </a>
       
-      </div>
+      </div> 
 
         <div class="mx-auto p-2 gap 3" style="width:300px; 
                             background-color:green;">
             <h3 style="color:white;" class="text-center">Types of Insurance</h3>
             <p class="text-center" style="color:white;">Click on the Insurance to get more</p>
-        </div> 
-       
-        <div class="container">
-          <header>
-            <h1>Flexbox Cards Layout</h1>
-          </header>
-          <ul class="item-list">
-        
-            <li class="item item1">
-              <img src="http://source.unsplash.com/B1amIgaNkwA/480x320/">
-              <div class="item-text">
-                <h2>Item 1</h2>
-                <p>Curabitur blandit tempus porttitor. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Curabitur blandit tempus porttitor. Etiam porta sem malesuada magna mollis euismod. Integer posuere
-                  erat a ante venenatis dapibus posuere velit aliquet.</p>
+        </div>  
+
+        <div class="grid">
+          <div class="grid-item">
+            <div class="card">
+              <img class="card-img" src="./img/rome.jpg" alt="Rome" />
+              <div class="card-content">
+                <h1 class="card-header">Rome</h1>
+                <p class="card-text">
+                  Rome is known for its stunning <strong> architecture</strong>,
+                  with the Colleseum, Pantheon, and Trevi Fountain as the main
+                  attractions.
+                </p>
+                <button class="card-btn">Visit <span>&rarr;</span></button>
               </div>
-            </li>
-        
-            <li class="item item2">
-              <img src="http://source.unsplash.com/xcC5ozHk_N8/480x320/">
-              <div class="item-text">
-                <h2>Item 2</h2>
-                <p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec sed odio dui. Donec sed odio dui. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+            </div>
+          </div>
+          <div class="grid-item">
+            <div class="card">
+              <img
+                class="card-img"
+                src="./img/grand-canyon.jpg"
+                alt="Grand Canyon"
+              />
+              <div class="card-content">
+                <h1 class="card-header">Grand Canyon</h1>
+                <p class="card-text">
+                  One of the world's natural wonders, the iconic Grand Canyon draws
+                  oohs and aahs from visitors perched at the edge of its
+                  <strong>towering cliffs</strong>.
+                </p>
+                <button class="card-btn">Visit <span>&rarr;</span></button>
               </div>
-            </li>
-            <li class="item item3">
-              <img src="http://source.unsplash.com/mWRR1xj95hg/480x320/">
-              <div class="item-text">
-                <h2>Item 3</h2>
-                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nulla vitae elit libero, a pharetra augue. Maecenas faucibus mollis interdum. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam id dolor id
-                  nibh ultricies vehicula ut id elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+            </div>
+          </div>
+          <div class="grid-item">
+            <div class="card">
+              <img class="card-img" src="./img/maldives.jpg" alt="Maldives" />
+              <div class="card-content">
+                <h1 class="card-header">Maldives</h1>
+                <p class="card-text">
+                  The Maldives are known for their
+                  <strong>natural environment</strong> including the blue ocean,
+                  white beaches, and clean air, attracting tourists.
+                </p>
+                <button class="card-btn">Visit <span>&rarr;</span></button>
               </div>
-            </li>
-            <li class="item item4">
-              <img src="http://source.unsplash.com/yEOCA6oiVqg/480x320/">
-              <div class="item-text">
-                <h2>Item 4</h2>
-                <p>Vestibulum id ligula porta felis euismod semper. Maecenas faucibus mollis interdum. Maecenas sed diam eget risus varius blandit sit amet non magna. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Aenean lacinia bibendum nulla sed
-                  consectetur. Donec sed odio dui.</p>
-              </div>
-            </li>
-            <li class="item item5">
-              <img src="http://source.unsplash.com/VB-w_3dnyvI/480x320/">
-              <div class="item-text">
-                <h2>Item 5</h2>
-                <p>Nulla vitae elit libero, a pharetra augue. Maecenas faucibus mollis interdum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Morbi leo risus, porta ac consectetur ac, vestibulum
-                  at eros. Donec id elit non mi porta gravida at eget metus. Curabitur blandit tempus porttitor.</p>
-              </div>
-            </li>
-            <li class="item item6">
-              <img src="http://source.unsplash.com/yOujaSETXlo/480x320/">
-              <div class="item-text">
-                <h2>Item 6</h2>
-                <p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sed diam eget risus varius blandit sit amet non magna.
-           </p>
-              </div>
-            </li>
-            <li class="item item7">
-              <img src="http://source.unsplash.com/NKSGuJzExIo/480x320/">
-              <div class="item-text">
-                <h2>Item 7</h2>
-                <p>Sed posuere consectetur est at lobortis. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Duis mollis, est non commodo luctus, nisi erat porttitor ligula,
-                  eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Donec ullamcorper nulla non metus auctor fringilla. Donec sed odio dui.</p>
-              </div>
-            </li>
-            
-          </ul>
+            </div>
+          </div>
         </div>
 
-        
+      </div>  
 </body>
 </html>
