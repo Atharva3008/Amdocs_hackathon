@@ -35,7 +35,7 @@ var sortYears = () => {
     }  
   }); 
 }
-  
+
 var createDIV = (addTO, jsonData, i) => {
   // parent div
   var div = document.createElement('div');
