@@ -1,0 +1,22 @@
+[
+    {
+    "Company": "HSBC",
+    "fileName": "fileXX",
+    "rating": 5
+    }, 
+    {
+        "Company": "InsuranceCompany",
+        "fileName": "fileXX",
+        "rating": 2
+    }, 
+    {
+        "Company": "MaxLife",
+        "fileName": "fileXX",
+        "rating": 8
+    }, 
+    {
+        "Company": "LIC",
+        "fileName": "fileXX",
+        "rating": 1
+    }
+]
