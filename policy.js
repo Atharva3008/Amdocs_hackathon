@@ -59,8 +59,14 @@ var createDIV = (addTO, jsonData, i) => {
 
   //button
   var btn = document.createElement("btn");
-  btn.innerText = "Apply";
   btn.classList = "btn btn-success";
+  //link inside button
+  var anchor = document.createElement("a");
+  anchor.innerText = "Apply";
+  anchor.style.textDecoration = "None";
+  anchor.style.color = "White";
+  anchor.href = "./policyform3.html";
+  btn.appendChild(anchor);
 
   div.appendChild(h3);
   div.appendChild(document.createElement("br"));
