@@ -23,13 +23,13 @@ var sortRating = () => {
   }); 
 }
 
-var sortName = () => {
+var sortYears = () => {
   const addTO = document.getElementById("addTo");
   addTO.innerHTML = "";
   fetch("data.json")
   .then(response => response.json())
   .then(jsonData => {
-    jsonData.sort((a,b) => (a.Company > b.Company) ? 1 : -1);
+    jsonData.sort((a,b) => (a.years > b.years) ? 1 : -1);
     for(i=0;i<jsonData.length;i++) {
       createDIV(addTO,jsonData,i);
     }  
