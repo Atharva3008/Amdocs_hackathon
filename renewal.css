@@ -6,6 +6,9 @@
 .bs-glyphicons .glyphicon-class {display: block;text-align: center;word-wrap: break-word;}
 /* bootsrap */
 
+.body {
+  overflow: hidden;
+} 
 
 .item {cursor: pointer;}
 .item:hover{background-color:whitesmoke;}
@@ -69,23 +72,23 @@ body {
 
   header {
     float: left;
-    margin: 0 0 100px 600px;
+    margin: 0 0 50px 45px;
     padding: 5px 0 0 0;
-    width: 100%;
+    width: auto;
   }
   
   h1 {
     font-family: 'Changa One', sans-serif;
-    margin: 15px 0;
+    margin: 15px 0 25px 0 ;
     font-size: 3.75em;
     font-weight: 500;
     line-height: 0.8em;
-    margin-right: 400px;
+    /* margin-right: 400px; */
   }
   
   h2 {
     font-size: 20px;
-    margin: 0 20px 0 50px;
+    margin: 0 0px 0 5px;
     font-weight: normal;
 
   }

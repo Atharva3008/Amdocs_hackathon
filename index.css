@@ -204,7 +204,7 @@ a {
   height: 60px;
   line-height: 60px;
   width: 100vw;
-  z-index: 10;
+  z-index: 20;
 }
 
 .nav-wrapper {
@@ -345,4 +345,23 @@ a {
 .cont {
   margin-top: 100px;
   text-align: center;
+}
+
+.contain {
+  margin-top: 80px;
+}
+
+.backdrop {
+  z-index: 10;
+  background-color: rgba(0,0,0,0.3);
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.cbutton {
+  z-index: 15;
+  color: white;
 }
