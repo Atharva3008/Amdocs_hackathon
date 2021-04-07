@@ -1,0 +1,92 @@
+/* bootsrap */
+.bs-glyphicons-list {padding: 0;list-style: none;}
+.bs-glyphicons {margin: 0;overflow: hidden;}
+.bs-glyphicons li {float: left;width: 25%;padding: 10px;line-height: 1.4;text-align: center; font-size: small;}
+.glyphicon {margin: 3px;font-size: 14px;color:#0072C6}
+.bs-glyphicons .glyphicon-class {display: block;text-align: center;word-wrap: break-word;}
+/* bootsrap */
+
+
+.item {cursor: pointer;}
+.item:hover{background-color:whitesmoke;}
+
+.item[status="complete"] > .date:before{content:"Completed: "; }
+.item[status="verified"] > .date:before{content:"Verified: "; }
+.item[status="due"] > .date:before{content:"Due: "}
+
+.item[status="complete"]{opacity:.5;}
+.item[status="verified"]{opacity:.5;}
+
+.date{color:#0D578B;}
+
+body{background-color:whitesmoke;font:12px 'Segoe UI', Helvetica, 'Droid Sans', Tahoma, Geneva, sans-serif;}
+
+.box{margin:35px;background-color:whitesmoke}
+.grid{width:100%; color:#545454!important}
+.grid .header{color:gray;font-size:20px}
+.grid .data-row{background-color:white; font-size: medium;}
+.grid .preview-row{padding-bottom:15px;}
+.grid tr{margin:10px;}
+.grid td{height:50px;padding:0px}
+.grid .row{background-color:white; margin:0;border-top: solid 1px whitesmoke;}
+
+
+
+@media screen and (max-width: 900px) 
+{
+  body{font:10px 'Segoe UI', Helvetica, 'Droid Sans', Tahoma, Geneva, sans-serif;}
+  .data-row td:nth-of-type(6) {display:none}
+  .header td:nth-of-type(6) {display:none}
+  .data-row td:nth-of-type(5) {display:none}
+  .header td:nth-of-type(5) {display:none}
+  .item{font-size:20px}
+}
+
+
+
+body {
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  #wrapper {
+    max-width: 940px;
+    margin: 0 auto;
+    padding: 0 5%;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  img {
+    max-width: 100%;
+  }
+  
+  h3 {
+    margin: 0 0 1em 0;
+  }
+  
+
+  header {
+    float: left;
+    margin: 0 0 100px 600px;
+    padding: 5px 0 0 0;
+    width: 100%;
+  }
+  
+  h1 {
+    font-family: 'Changa One', sans-serif;
+    margin: 15px 0;
+    font-size: 3.75em;
+    font-weight: 500;
+    line-height: 0.8em;
+    margin-right: 400px;
+  }
+  
+  h2 {
+    font-size: 20px;
+    margin: 0 20px 0 50px;
+    font-weight: normal;
+
+  }
+
