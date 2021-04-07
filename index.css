@@ -314,3 +314,35 @@ a {
   /* transition: 0s; */
 }
 
+
+
+ body {
+  font-family: "Segoe UI", Helvetica Neue, Tahoma, sans-serif;
+}
+
+.contact .fa:before {
+  display: inline-block;
+  opacity: 0.7;
+}
+
+.contact li {
+  display: inline-block;
+  list-style-type: none;
+  margin: 0 1em;
+  text-align: center;
+}
+
+.contact p {
+  text-align: center;
+}
+
+.contact {
+  display: inline-block;
+  margin: 0 auto;
+  padding-left: 0;
+}
+
+.cont {
+  margin-top: 100px;
+  text-align: center;
+}
